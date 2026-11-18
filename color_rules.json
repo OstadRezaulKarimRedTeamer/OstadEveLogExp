@@ -1,0 +1,68 @@
+[
+  {
+    "rule_id": "default_critical",
+    "name": "Critical Events",
+    "enabled": true,
+    "match_field": "Level",
+    "match_op": "equals",
+    "match_val": "Critical",
+    "bg_color": "#7F0000",
+    "fg_color": "#FFFFFF",
+    "priority": 100
+  },
+  {
+    "rule_id": "default_error",
+    "name": "Error Events",
+    "enabled": true,
+    "match_field": "Level",
+    "match_op": "equals",
+    "match_val": "Error",
+    "bg_color": "#FFD6D6",
+    "fg_color": "#900C3F",
+    "priority": 90
+  },
+  {
+    "rule_id": "default_audit_failure",
+    "name": "Audit Failure (Logon Failures / Security)",
+    "enabled": true,
+    "match_field": "Level",
+    "match_op": "equals",
+    "match_val": "Audit Failure",
+    "bg_color": "#FFE0E6",
+    "fg_color": "#C70039",
+    "priority": 85
+  },
+  {
+    "rule_id": "default_warning",
+    "name": "Warning Events",
+    "enabled": true,
+    "match_field": "Level",
+    "match_op": "equals",
+    "match_val": "Warning",
+    "bg_color": "#FFF3CD",
+    "fg_color": "#856404",
+    "priority": 80
+  },
+  {
+    "rule_id": "default_audit_success",
+    "name": "Audit Success",
+    "enabled": true,
+    "match_field": "Level",
+    "match_op": "equals",
+    "match_val": "Audit Success",
+    "bg_color": "#E8F8F5",
+    "fg_color": "#117A65",
+    "priority": 70
+  },
+  {
+    "rule_id": "default_failed_logon_id",
+    "name": "Security: Failed Logon (Event ID 4625)",
+    "enabled": true,
+    "match_field": "EventID",
+    "match_op": "equals",
+    "match_val": "4625",
+    "bg_color": "#FADBD8",
+    "fg_color": "#78281F",
+    "priority": 95
+  }
+]
